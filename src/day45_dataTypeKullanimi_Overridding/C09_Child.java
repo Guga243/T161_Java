@@ -29,7 +29,8 @@ public class C09_Child extends C08_Parent{
 
         // notasyonu parent classdeki overriden methodu takip eder
         // overridden method silinir veya degisiklik yaparsak cte veriri
-        
+
+        // hdhhdj
 
 
     }
