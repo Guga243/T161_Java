@@ -16,9 +16,10 @@ public abstract class C05_KuralciArabaClassi {
     // ozellikleri siradan bildigimiz (concrite method) olusturabilriiz
 
     public void klima(){
+        System.out.println("araba klimali");
 
     }
     public void sunroof(){
-
+        System.out.println("araba sunrooflu");
     }
 }
