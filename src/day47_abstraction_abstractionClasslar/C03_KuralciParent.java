@@ -9,24 +9,39 @@ public abstract class C03_KuralciParent {
 
     BUNUN ICIN CLASS DECLARASYONUNA abstract keywordu eklemeliyiz
 
+
+    child classlarin mutlaka bulundurmasi gereken
+    methodlar bildigimiz classik methodlardan farkli olmalidir
+    bu method'lar method olmaktan ziyade
+    cild classlari uyaaklari kurallari belirten bir cumle gibi dusunlebilir
+
+    biz burada sunu demek istiyoruz:
+    her child class'da mutlaka method1() olsun
+
      */
  // method1 child classlar tarafindan
     // Mutlaka overridde edilsin
-    public void method1(){
+    public abstract void method1();
 
 
-    }
+
     // method2'i child classlarin istegine birakiyoruz
     // isterlerse parent classdan kullansinlar
     // isterlerse overridde etsinler
     public void method2(){
 
 
+        /*
+        methodlarda abstraction kullanirken
+        methodlari abstract methodlar ve abstract olmayan methodlar ayirmak yerine
+        abstract olmayan yapilara : Concrete denir
+         */
+
     }
     // method1 child classlar tarafindan
     // Mutlaka overridde edilsin
-    public void method3(){
+    public abstract void method3();
 
 
-    }
+
 }
